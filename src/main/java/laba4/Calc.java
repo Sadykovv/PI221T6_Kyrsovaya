@@ -41,10 +41,10 @@ public class Calc extends HttpServlet {
 		public void setAsRequestAttributesAndCalculate(HttpServletRequest request) {
 			request.setAttribute("first_result", first_calc);
 			request.setAttribute("second_result", second_calc);
-			String log = "";
-			String pass = "";
+			String log;
+			String pass;
 	
-			if (log = "admin" && pass <= "1234")
+			if (log = "admin" & pass = "12345")
 			
 			{
 			result = log + pass;
