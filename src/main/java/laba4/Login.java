@@ -15,7 +15,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-@WebServlet(name="Login", urlPatterns="/JavaCal") //связывание сервлета с URL
+@WebServlet(name="Login", urlPatterns="/Calc") //связывание сервлета с URL
 public class Login extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
